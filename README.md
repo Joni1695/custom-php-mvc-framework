@@ -1,3 +1,11 @@
-### CSD-Project ###
+### Custom PHP MVC Framework ###
 
-Custom php framework and international page for Camerino students.
+This is a custom PHP Framework developed for fun by Joni Seraj, a Computer Science student.
+
+FrameWork Features:
+
+FrameWork To-Be-Added Features:
+
+FrameWork To-Be-Fixed Bugs:
+
+FrameWork Fixed Bugs:
