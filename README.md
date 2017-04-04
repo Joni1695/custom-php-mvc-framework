@@ -20,25 +20,25 @@ This is a custom PHP Framework developed for fun by Joni Seraj, a Computer Scien
 
 8. Custom Libraries can be used with the framework
 
+9. Composer Support Added
+
 ***FrameWork To-Be-Added Features:***
 
 1. ORM database support.
 
-2. Composer support.
+2. Modularity of every component, leaving the web developer free to choose.
 
-3. Modularity of every component, leaving the web developer free to choose.
+3. Security-wise: CSRF Automatic protection, SQL Injection Protection, HTML Clearance, XSS Script Injection etc.
 
-4. Security-wise: CSRF Automatic protection, SQL Injection Protection, HTML Clearance, XSS Script Injection etc.
+4. Better Session Handling
 
-5. Better Session Handling
+5. Error reporting
 
-6. Error reporting
+6. Better Config Structuring 
 
-7. Better Config Structuring 
+7. Optional GUI
 
-8. Optional GUI
-
-9. Autoloading System
+8. Autoloading System
 
 ***FrameWork To-Be-Fixed Bugs:***
 
