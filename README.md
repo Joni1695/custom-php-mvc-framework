@@ -36,6 +36,8 @@ This is a custom PHP Framework developed for fun by Joni Seraj, a Computer Scien
 
 7. Better Config Structuring 
 
+8. Optional GUI
+
 ***FrameWork To-Be-Fixed Bugs:***
 
 
