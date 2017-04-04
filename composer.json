@@ -1,0 +1,8 @@
+{
+	"require" : {
+
+	},
+	"config" : {
+		"optimize-autoloader" : true
+	}
+}
