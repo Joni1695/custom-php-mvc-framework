@@ -1,0 +1,13 @@
+# Activate the option for symbolic links
+Options +FollowSymLinks
+# Block Directory Exploration
+Options -Indexes
+# Tell Apache to look for index.php on every page it accesses
+DirectoryIndex index.php
+# Activate the Rewrite Module of apache
+RewriteEngine on
+# Write first condition to capture 
+RewriteCond $1 !^(index\.php|favicon\.ico|assets)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L,QSA]
