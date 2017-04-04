@@ -38,4 +38,5 @@ This is a custom PHP Framework developed for fun by Joni Seraj, a Computer Scien
 
 ***FrameWork To-Be-Fixed Bugs:***
 
+
 ***FrameWork Fixed Bugs:***
