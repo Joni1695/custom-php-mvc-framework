@@ -38,6 +38,8 @@ This is a custom PHP Framework developed for fun by Joni Seraj, a Computer Scien
 
 8. Optional GUI
 
+9. Autoloading System
+
 ***FrameWork To-Be-Fixed Bugs:***
 
 
