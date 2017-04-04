@@ -1,9 +1,16 @@
 <?php 
 
-	/* CUSTOM FRAMEWORK */
-	/* PRODUCTION_MODE can be development or production */
+	/* CUSTOM PHP MVC FRAMEWORK */
+	/*
+		* @desc Definde the mode in which the framework will work, development or production. If development, all errors will be shown to make development 
+		* easier. If production all errors will be hidden. This will be developer customizable.
+	 */
 	define('PRODUCTION_MODE','development');
 
+	/*
+		* @desc In case of development, all errors showing. Otherwise checking php version to apply correct error hiding.
+		* @param PRODUCTION_MODE - Mode of production
+	*/
 	switch(PRODUCTION_MODE){
 		case 'development':
 			error_reporting(-1);
@@ -25,8 +32,9 @@
 		break;
 	}
 	
-	/* FIRST SECURITY MEASURE */
-	/* Define all the system paths */
+	/*
+		* @desc Define all system paths
+	*/
 	define('BASE_PATH',realpath(''));
 	define('CORE_PATH',BASE_PATH.'/Core');
 	define('CONFIG_PATH',BASE_PATH.'/Config');
